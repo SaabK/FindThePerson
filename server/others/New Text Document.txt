@@ -1,0 +1,40 @@
+POST TO /person/create
+data:
+{
+    "firstName": "Ali",
+    "middleName": "Bin",
+    "lastName": "Naseer",
+    "age": 16,
+    "email": "aliisinsane0089@gmail.com",
+    "bestFriends": ["Hasnain Naseer", "Waqar Alam"],
+    "hobbies": ["Coding", "Islam", "Being The Greatest"],
+    "address": {
+        "city": "Mian Channu",
+        "town": "Jinnah Town",
+        "street":"Street No.7"
+    },
+    "fatherName": "Naseer Ahmad",
+    "motherName": "Anjum Naseer",
+    "grandParentsFromFather": {
+        "grandFather": "Saeed Ahmad",
+        "grandMother": "Papa ki Mama"
+    },
+    "grandParentsFromMother": {
+        "grandFather": "Muhammad Khushi",
+        "grandMother": "Bismillah"
+    },
+    "greatGrandFather": "Muhammad Bakhseesh",
+    "greatGrandMother": "Papa ke Papa ki Mama",
+    "tribe": "Some Tribe",
+    "famousDescendent": "Saeed Ahmad",
+    "dynasty":"Khushi Dynasty",
+    "netWorth": {
+        "amount": 50,
+        "unit":"$"
+    },
+    "dob": "27/01/2007",
+    "countryOfBirth": "Saudi Arabia",
+    "photo": "binarydata",
+    "achievement":"I've Established The State",
+    "personBy": "64b7bfef1d9f4872e7e3570c"
+}
